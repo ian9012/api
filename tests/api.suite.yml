@@ -3,6 +3,6 @@ modules:
     enabled:
         - \Helper\Api
         - REST:
-              url: http://localhost:6195/
+              url: http://192.168.88.14:6195/
               depends: PhpBrowser
               part: Json
